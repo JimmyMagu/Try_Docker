@@ -1,0 +1,5 @@
+FROM python:3
+WORKDIR /home/jim/Tjs/Try_Docker
+ADD requirements.txt /home/jim/Tjs/Try_Docker
+RUN pip install -r requirements.txt
+ADD . /home/jim/Tjs/Try_Docker
